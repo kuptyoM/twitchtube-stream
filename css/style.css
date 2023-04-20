@@ -1,0 +1,95 @@
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+}
+
+.footer {
+    max-height: 65px;
+    min-height: 65px;
+}
+
+.streamButtons {
+    min-height: 50px;
+    min-width: 200px;
+    border: 1px solid rgb(75, 33, 5);
+    margin-top: 200px;
+    background-color: rgb(71, 66, 59);
+    color: white;
+}
+
+.streamButtons:hover {
+    background-color: rgb(107, 100, 91);
+}
+
+
+.leftmain {
+    width: 240px;
+    background-color: rgb(58, 51, 51);
+}
+
+.rightmain {
+    width: 200px;
+    background-color: rgb(58, 51, 51);
+    align-content: center;
+} 
+
+
+#twitchAuth {
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-top: 5px;
+    min-height: 50px;
+    min-width: 200px;
+    margin-top: 2px;
+
+}
+
+#youtubeAuth {
+    padding-top: 5px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    min-height: 50px;
+    min-width: 200px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+#youtubeAuth:hover {
+    background-color: rgb(219, 69, 69);
+}
+
+#twitchAuth:hover {
+    background-color: rgb(160, 83, 231);
+}
+
+/* .twitch-chat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+} */
+
+.stream iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .stream {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 1200px;
+}
